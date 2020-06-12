@@ -13,15 +13,51 @@
 }
 
 #blog img {
-    /*width: 100%; */
+    width: 100%; 
+    height: 100%;
     max-width:400px;
-    width: 300px;
-    height: 250px;
     filter: grayscale(100%);
     transition: transform 0.5s;
 }
 
-#blog img:hover{
+.article{
+    width: 300px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.bg-dog-1{
+    background-image: url('/img/happy-dog.jpg');
+}
+.bg-dog-2{
+    background-image: url('/img/happy-dog-2.jpg');
+}
+
+.bg-dog-3{
+    background-image: url('/img/happy-dog-3.jpg');
+}
+
+.caption {
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 8%;
+    right: 8%;
+    font-size: 1.3em;
+    text-shadow:2px 2px 5px #5B2C6F; ;
+}
+
+.bg_article{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100%);
+    transition: all 0.7s;
+    background-position: center;
+    background-size: cover;
+}
+
+#blog img:hover,
+.bg_article:hover{
     filter: none;
-    transform: scale(1.05);
+    transform: scale(1.2);
 }
