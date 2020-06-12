@@ -27,14 +27,14 @@
 }
 
 .bg-dog-1{
-    background-image: url('/img/happy-dog.jpg');
+    background-image: url('../img/happy-dog.jpg');
 }
 .bg-dog-2{
-    background-image: url('/img/happy-dog-2.jpg');
+    background-image: url('../img/happy-dog-2.jpg');
 }
 
 .bg-dog-3{
-    background-image: url('/img/happy-dog-3.jpg');
+    background-image: url('../img/happy-dog-3.jpg');
 }
 
 .caption {
